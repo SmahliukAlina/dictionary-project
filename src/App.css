@@ -12,6 +12,7 @@
 
 .App .main {
   background-color: #f2f7ff;
+  padding: 10px 40px;
 }
 
 .App-footer {
@@ -26,5 +27,9 @@
 @media (max-width: 576px) {
   .App-header .logo-app {
     height: 30px;
+  }
+
+  .App .main {
+    padding: 10px 10px;
   }
 }
