@@ -1,0 +1,26 @@
+.Dictionary form {
+  text-align: center;
+}
+
+.Dictionary form input {
+  border: 1px solid #0b409c;
+  border-radius: 4px;
+  width: 30%;
+}
+
+.Dictionary form input:focus {
+  color: #10316b;
+  outline: none;
+}
+
+.Dictionary form button {
+  background-color: #0b409c;
+  border: 1px solid #0b409c;
+  border-radius: 4px;
+  color: #f2f7ff;
+  transition: all 200ms ease-in-out;
+}
+
+.Dictionary form button:hover {
+  background-color: #fdbe34;
+}
