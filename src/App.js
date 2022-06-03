@@ -5,17 +5,21 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container header">
         <header className="App-header">
           <h1>
             <img src={logo} alt="app-logo" className="logo-app" />
             Dictionary App
           </h1>
         </header>
-        <main>
+      </div>
+      <div className="container main">
+        <main className="App-main py-2 px-5">
           <Dictionary />
         </main>
-        <footer className="text-center">
+      </div>
+      <div className="container footer">
+        <footer className="App-footer text-center">
           This project was coded by{" "}
           <a
             href="https://classy-semolina-bd4086.netlify.app/"
