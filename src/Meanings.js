@@ -4,10 +4,12 @@ import Definition from "./Definition";
 export default function Meanings(props) {
   return (
     <div className="Meanings">
-      {props.number}
-      {". "}
-      {props.data.partOfSpeech}
-      {". "}
+      <strong>
+        {props.number}
+        {". "}
+        <em>{props.data.partOfSpeech}</em>
+        {". "}
+      </strong>
       {props.data.definitions.map(function (definition, index) {
         return (
           <div key={index}>
