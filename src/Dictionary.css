@@ -28,3 +28,9 @@
 .Dictionary form button:hover {
   background-color: #fdbe34;
 }
+
+@media (max-width: 576px) {
+  .Dictionary form input {
+    width: 80%;
+  }
+}
