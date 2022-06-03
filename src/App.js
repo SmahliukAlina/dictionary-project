@@ -14,7 +14,7 @@ export default function App() {
         </header>
       </div>
       <div className="container main">
-        <main className="App-main py-2 px-5">
+        <main className="App-main">
           <Dictionary />
         </main>
       </div>
