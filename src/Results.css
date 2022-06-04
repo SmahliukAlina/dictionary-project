@@ -14,6 +14,7 @@
 .Results .phonetic {
   font-size: 20px;
   padding-top: 20px;
+  opacity: 0.9;
 }
 
 .Results .audio {
