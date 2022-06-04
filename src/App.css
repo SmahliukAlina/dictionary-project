@@ -1,13 +1,20 @@
 .App {
   color: #10316b;
+  background-color: #f2f7ff;
 }
 .App-header {
-  margin: 30px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
 .App-header .logo-app {
   height: 50px;
+}
+
+.App-header h1 {
+  font-size: 70px;
+  font-family: "Macondo", cursive;
+  font-weight: bold;
 }
 
 .App-footer {

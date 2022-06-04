@@ -1,0 +1,8 @@
+.Audio a {
+  color: #10316b;
+  transition: all 200ms ease-in-out;
+}
+
+.Audio a:hover {
+  color: #fdbe34;
+}
