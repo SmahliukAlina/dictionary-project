@@ -3,7 +3,7 @@ import "./Photos.css";
 import Photo from "./Photo";
 
 export default function Photos(props) {
-  if (props.data.length !== 0) {
+  if (props.data) {
     return (
       <div className="Photos">
         <section>
