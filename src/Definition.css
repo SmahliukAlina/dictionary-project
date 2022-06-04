@@ -12,3 +12,9 @@
 .Definition .synonyms {
   font-style: italic;
 }
+
+@media (max-width: 576px) {
+  .Definition {
+    padding: 0 5px;
+  }
+}
