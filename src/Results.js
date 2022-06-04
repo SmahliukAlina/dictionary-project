@@ -10,11 +10,11 @@ export default function Results(props) {
       <div className="Results">
         <section>
           <div className="row">
-            <div className="col-4 word">
+            <div className="col-md-4 word">
               <h2>{props.res.word}</h2>
             </div>
 
-            <div className="col-4 phonetic">
+            <div className="col-md-4 phonetic">
               {props.res.phonetics.map(function (phonetic, index) {
                 return (
                   <span key={index} className="px-2">
@@ -24,7 +24,7 @@ export default function Results(props) {
               })}
             </div>
 
-            <div className="col-4 audio">
+            <div className="col-md-4 audio">
               {props.res.phonetics.map(function (phonetic, index) {
                 return (
                   <span key={index} className="px-2">
