@@ -2,9 +2,9 @@
   font-family: "Nunito", sans-serif;
 }
 .Dictionary section {
-  margin: 10px 10px;
+  margin: 10px 15px;
   background-color: whitesmoke;
-  padding: 10px 40px;
+  padding: 15px 40px;
   border-radius: 6px;
   box-shadow: 5px 5px 10px rgba(11, 64, 156, 0.8);
 }
