@@ -39,7 +39,7 @@ export default function Results(props) {
           {props.res.meanings.map(function (meaning, index) {
             return (
               <div key={index}>
-                <Meanings data={meaning} number={index + 1} />
+                <Meanings data={meaning} />
               </div>
             );
           })}
