@@ -5,7 +5,11 @@ import Synonyms from "./Synonyms";
 export default function Definition(props) {
   function showExample(item) {
     if (item) {
-      return <span>Example: "{item}"</span>;
+      return (
+        <span>
+          <strong>Example:</strong> "{item}"
+        </span>
+      );
     } else {
       return null;
     }
