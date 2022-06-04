@@ -23,17 +23,19 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <div className="row">
-        <form onSubmit={search}>
-          <input
-            className="search"
-            placeholder="Search for any word"
-            autoFocus={true}
-            onChange={handleWordChange}
-          />
-          <button className="submit ms-2">
-            <i className="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </form>
+        <section>
+          <form onSubmit={search}>
+            <input
+              className="search"
+              placeholder="Search for any word"
+              autoFocus={true}
+              onChange={handleWordChange}
+            />
+            <button className="submit ms-2">
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </section>
       </div>
 
       <div className="row">

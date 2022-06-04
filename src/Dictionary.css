@@ -1,5 +1,9 @@
-.Dictionary {
+.Dictionary section {
   margin: 10px 0;
+  background-color: #f2f7ff;
+  padding: 10px 40px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px #0b409c;
 }
 
 .Dictionary form {

@@ -1,0 +1,22 @@
+.Results {
+  padding: 0;
+}
+
+.Results .word {
+  text-align: center;
+}
+
+.Results .word h2 {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.Results .phonetic {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.Results .audio {
+  font-size: 25px;
+  padding-top: 15px;
+}
