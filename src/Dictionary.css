@@ -9,6 +9,12 @@
   box-shadow: 5px 5px 10px rgba(11, 64, 156, 0.8);
 }
 
+.Dictionary .search-section {
+  max-width: 930px;
+}
+.Dictionary .some {
+  margin: 0;
+}
 .Dictionary form {
   text-align: center;
 }
@@ -18,7 +24,6 @@
   background-color: whitesmoke;
   border: 1px solid #0b409c;
   border-radius: 4px;
-  width: 30%;
 }
 
 .Dictionary form input:focus {

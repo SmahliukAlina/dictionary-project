@@ -39,7 +39,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <div className="row">
-        <section>
+        <section className="search-section">
           <form onSubmit={search}>
             <input
               className="search"
@@ -52,9 +52,6 @@ export default function Dictionary() {
             </button>
           </form>
         </section>
-      </div>
-
-      <div className="row">
         <Results res={result} />
         <Photos data={photos} />
       </div>
