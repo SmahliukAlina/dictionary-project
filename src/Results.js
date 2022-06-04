@@ -16,11 +16,15 @@ export default function Results(props) {
 
             <div className="col-md-4 phonetic">
               {props.res.phonetics.map(function (phonetic, index) {
-                return (
-                  <span key={index} className="px-2">
-                    <Phonetic data={phonetic} />
-                  </span>
-                );
+                if (index < 5) {
+                  return (
+                    <span key={index} className="px-2">
+                      <Phonetic data={phonetic} />
+                    </span>
+                  );
+                } else {
+                  return null;
+                }
               })}
             </div>
 
